@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+  redis:
+    image: 'redis:4.0.2'
+    volumes:
+      - './redis:/data'
+    ports:
+      - '6379:6379'
+
+  web:
+    build: .
+    ports:
+     - "5000:5000"
+    volumes:
+     - .:/code
+    environment:
+      - PRODUCT_ID=${PRODUCT_ID}
+      - PRODUCT_SECRET=${PRODUCT_SECRET}
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+    links:
+      - redis

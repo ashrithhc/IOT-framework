@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+<!-- adpated from nest-tensorflow -->
+{% block body %}
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="jumbotron">
+    <h1 class="display-3">Sample Works with Nest Integration</h1>
+    <p>This application demonstrates best practices when integrating a Works with Nest product, such as:
+      <ul>
+        <li>Hiding the client ID and client secret</li>
+        <li>Providing a structure picker</li>
+        <li>Listening for changes</li>
+        <li>Detecting Home/Away</li>
+        <li>Including confirmation and error messages</li>
+        <li>Removing cached data and camera images</li>
+        <li>Handling deauth and revoked auth</li>
+      </ul>
+    </p>
+    <p>To get started click Authorize to allow the application to access your Nest account.</p>
+    <p>
+        <a class="btn btn-primary btn-lg" role="button" href="{{ url_for('login') }}">
+            <i class="fa fa-sign-in" aria-hidden="true"></i> Authorize
+        </a>
+    </p>
+</div>
+{% endblock %}

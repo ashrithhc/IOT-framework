@@ -1,0 +1,7 @@
+flask
+requests
+redis
+
+# for rest-streaming instead of polling (see README-Docker.md for details)
+sseclient-py
+urllib3

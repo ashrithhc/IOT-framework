@@ -1,0 +1,40 @@
+{
+   "labels": {
+       "thermostats": "Thermostats",
+       "cameras": "Cameras",
+       "smoke_co_alarms": "Smoke+CO Alarms",
+
+       "away": "Home or Away Status",
+       "time_zone": "Time Zone",
+       "postal_code": "Zip Code",
+
+       "HIDE:can_cool": "Can Cool",
+       "HIDE:can_heat": "Can Heat",
+       "HIDE:is_using_emergency_heat": "Emergency Heat in use",
+
+       "battery_health": "Battery",
+       "is_manual_test_active": "Manual Test Active",
+       "co_alarm_state": "CO Alarm State",
+       "smoke_alarm_state": "Smoke Alarm State",
+
+       "is_online": "Online",
+       "is_streaming": "Streaming",
+       "is_public_shared_enabled": "Public Shared",
+       "is_audio_input_enabled": "Audio Input",
+       "is_video_history_enabled": "Video History",
+
+       "HIDE:app_url": "App URL",
+       "HIDE:web_url": "Web URL",
+       "HIDE:snapshot_url": "Snapshot URL",
+       "HIDE:public_share_url": "Public URL"
+       
+   }, 
+   "fa-icons": {
+       "thermostats": "dashboard",
+       "cameras": "video-camera",
+       "smoke_co_alarms": "bullhorn"
+   },
+   "icons": {
+       "has_leaf": "leaf.gif"
+   }
+}

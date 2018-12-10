@@ -1,0 +1,9 @@
+flask
+requests
+
+# for server-side sessions (see README for details) 
+# redis
+
+# for rest-streaming instead of polling (see README for details)
+# sseclient-py
+# urllib3

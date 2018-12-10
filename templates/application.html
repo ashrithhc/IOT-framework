@@ -1,0 +1,51 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+<div class="card" id="results" data-api-url="{{ url_for('apicontent') }}">
+    <div class="card-block">
+        <h4 class="card-title">Sample Works with Nest Integration</h4>
+        <p id="content" class="card-text"></p>
+        <p id="schedule" class="card-text"></p>
+        <p id="status" class="card-text"></p>
+    </div>
+</div>
+
+<!-- Modal Message -->
+<div class="modal fade" id="alertModal" role="dialog" data-backdrop="static">
+  <div class="modal-dialog transparent">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">WWN Message</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">CLOSE</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Confirmation -->
+<div class="modal fade" id="confirmModal" role="dialog" data-backdrop="static">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">WWN Message</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p></p>
+      </div>
+      <div class="modal-footer">
+        <button id="okBtn" type="button" class="btn btn-primary">OK</button>
+        <button id="cancelBtn" type="button" class="btn btn-default" data-dismiss="modal">CANCEL</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
