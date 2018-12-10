@@ -9,14 +9,28 @@ import sys
 from auth import Auth
 from nest_api import NestAPI
 from datamodel import NestData
-# from sample import views, auth, data_store
 from error import APIError
-# from wwn import nest_data as models, nest_api as api, port as wwn_port
 
 app = Flask(__name__)
 
 auth = Auth()
 api = NestAPI()
+
+@app.route('/testing')
+def testing():
+    global nestData
+    data = nestData.get_data()
+    print (data['results']['devices']['cameras'].keys())
+    apicontent = {"content": None, "schedule": None}
+    return jsonify(apicontent)
+
+@app.route('/showimage')
+def showimage():
+    global nestData
+    data = nestData.get_data()
+    camera_id = list(data['results']['devices']['cameras'].keys())[0]
+
+    return redirect(data['results']['devices']['cameras'][camera_id]["snapshot_url"])
 
 @app.route('/')
 def index():
@@ -45,23 +59,21 @@ def logout():
 
 @app.route('/apicontent', methods=['GET'])
 def apicontent():
+    global nestData
     token = auth.get_token()
     if not token:
         print ("missing token, return 400")
         return "", 400
     try:
         data = api.get_data(token)
+        with open('data.json', 'w') as outfile:
+            json.dump(data, outfile)
+
         print (data['results']['devices'].keys())
     except APIError as err:
         return process_api_err(err)
 
     nestData = NestData(data)
-
-    # diff_list = data_store.process_data_changes(nestData)
-    # print "difference = ", diff_list
-
-    # if not nestData.has_structures():
-    #     return jsonify({"error": "No authorized structures found.  Please re-authorize."})
 
     apicontent = {"content": None, "schedule": None}
     return jsonify(apicontent)
