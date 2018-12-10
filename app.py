@@ -2,9 +2,11 @@
 
 from flask import Flask, request, redirect, url_for, render_template, jsonify
 from flask import Response, stream_with_context
+from urllib.parse import urlparse
 
 import json
 import sys
+import http.client
 
 from auth import Auth
 from nest_api import NestAPI
@@ -31,6 +33,32 @@ def showimage():
     camera_id = list(data['results']['devices']['cameras'].keys())[0]
 
     return redirect(data['results']['devices']['cameras'][camera_id]["snapshot_url"])
+
+@app.route('/cameraoff')
+def cameraoff():
+    global nestData
+    token = auth.get_token()
+    data = nestData.get_data()
+    camera_id = list(data['results']['devices']['cameras'].keys())[0]
+
+    url = "/devices/cameras/" + str(camera_id)
+
+    conn = http.client.HTTPSConnection("developer-api.nest.com")
+    headers = {'authorization': "Bearer {0}".format(token)}
+    payload = "{\"is_streaming\": true}"
+    conn.request("PUT", url, payload, headers)
+    response = conn.getresponse()
+
+    if response.status == 307:
+        redirectLocation = urlparse(response.getheader("location"))
+        conn = http.client.HTTPSConnection(redirectLocation.netloc)
+        conn.request("PUT", url, payload, headers)
+        response = conn.getresponse()
+        if response.status != 200:
+            raise Exception("Response failed: ", response.reason)
+
+    apicontent = {"content": None, "schedule": None}
+    return jsonify(apicontent)
 
 @app.route('/')
 def index():
