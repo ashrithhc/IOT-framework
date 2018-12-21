@@ -1,0 +1,139 @@
+.message {
+    position: fixed;
+    top: 25%;
+    left: 50%;
+    z-index: 10000;
+    transform: translate(-50%, -50%);
+}
+
+#schedules {
+    background-color: #b6cfe6;
+    border-color: #b6cfe6;
+    color: black;
+}
+
+#scheduleDesc {
+    margin-bottom: .5rem;
+    font-weight: bold;
+    color: #464a4c;
+}
+
+#scheduleStructs, #scheduleCameras {
+    margin-bottom: .10rem;
+}
+
+.scheduleSelect {
+    width: 200px;
+    display: inline;
+    background-color: #d0dae6;
+}
+
+div.structure-card, #schedAwayBtn, #schedCamBtn {
+    background-color: #7699C0;
+    color: #fff;
+}
+
+.card-block {
+    padding-top: 0px;
+}
+
+#results {
+    background-color: #fff;
+}
+
+#structure-picker {
+    padding-top: 0px;
+    margin-top: 0.6rem;
+}
+
+.structure-level-datails fieldset {
+    color: #4d4d4d;
+}
+
+.demo {
+    width: auto;
+    height: 130px;
+    max-height: 150px;
+    background-color: #fff;
+    color: slategrey;
+}
+
+.card-device {
+    min-width:275px;
+    max-width:300px;
+    margin-bottom:15px;
+}
+
+.card-header-device {
+    background-color: darkgray;
+    color: #fff;
+    font-weight: bold;
+}
+.card-header-device.smoke_co_alarms {
+    background-color: mediumpurple;
+}
+.card-header-device.thermostats {
+    background-color: seagreen;
+}
+.card-header-device.cameras {
+    background-color: dodgerblue;
+}
+
+.row {
+    padding: 1rem 0.1rem
+}
+
+.navbar {
+    margin: 20px 0;
+}
+
+.structure-card a:link, a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+.deviceLink, .cameraLink {
+    color: #5b7ec0
+}
+
+.color-state > img {
+    height: 20px;
+}
+
+.connection-state {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.connection-state > img {
+  height: 25px;
+}
+
+.home-away {
+    left: 3px;
+    position: relative;
+}
+
+.leaf-img {
+    height: 20px;
+    position: relative;
+    top: -3px;
+}
+
+.transparent {
+    background-color: transparent;
+}
+
+.modal-body {
+    padding:0.5rem 2rem 2rem 2rem
+}
+
+.btn-group {
+    white-space: nowrap;
+    display: inline;
+}
+
+.table-sm td, .table-sm th {
+    text-align: left;
+}
+

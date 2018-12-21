@@ -1,0 +1,194 @@
+{
+    "results": {
+        "devices": {
+            "cameras": {
+                "DBWFENXfipIKNNRrsws42ZdPv64SAbOT279crwybXZBNRMH94bVJBA": {
+                    "app_url": "nestmobile://cameras/CjZEQldGRU5YZmlwSUtOTlJyc3dzNDJaZFB2NjRTQWJPVDI3OWNyd3liWFpCTlJNSDk0YlZKQkESFkJhdE9CZXhqczE3WTNuemFmNEJtS1EaNmRvQkNyNzFXdGhmQ1VJWkRod09BWEIxUldYNVp5cWNxUkFVc25hZG1PLWJOZ0JWNGtuOEx1QQ?auth=703N_rlTEZULyrPmgXAsrXt1cSQ73aexfBt6haYaT4oAFiTurP3kFJ9-Ku8sMDIp3YLHr9R0GU-vcFu6AZdQRebhlGHk9dPbvx61QuD13-LTY6eNuKkeRY6riJnIKRloAp_sUJR-c8Wbd8nxx998TC-WiTuDo7LbT5YML7DALHh19qaNbCJxSo9xEVvX3HBmbuSNdSU3LXvM_Y", 
+                    "device_id": "DBWFENXfipIKNNRrsws42ZdPv64SAbOT279crwybXZBNRMH94bVJBA", 
+                    "is_audio_input_enabled": true, 
+                    "is_online": true, 
+                    "is_public_share_enabled": false, 
+                    "is_streaming": true, 
+                    "is_video_history_enabled": false, 
+                    "last_event": {
+                        "end_time": "2018-12-03T06:14:04.710Z", 
+                        "has_motion": true, 
+                        "has_person": false, 
+                        "has_sound": false, 
+                        "start_time": "2018-12-03T06:13:55.170Z"
+                    }, 
+                    "last_is_online_change": "2018-12-03T02:55:23.000Z", 
+                    "name": "Bedroom", 
+                    "name_long": "Bedroom Camera", 
+                    "snapshot_url": "https://www.dropcam.com/api/wwn.get_snapshot/CjZEQldGRU5YZmlwSUtOTlJyc3dzNDJaZFB2NjRTQWJPVDI3OWNyd3liWFpCTlJNSDk0YlZKQkESFkJhdE9CZXhqczE3WTNuemFmNEJtS1EaNmRvQkNyNzFXdGhmQ1VJWkRod09BWEIxUldYNVp5cWNxUkFVc25hZG1PLWJOZ0JWNGtuOEx1QQ?auth=703N_rlTEZULyrPmgXAsrXt1cSQ73aexfBt6haYaT4oAFiTurP3kFJ9-Ku8sMDIp3YLHr9R0GU-vcFu6AZdQRebhlGHk9dPbvx61QuD13-LTY6eNuKkeRY6riJnIKRloAp_sUJR-c8Wbd8nxx998TC-WiTuDo7LbT5YML7DALHh19qaNbCJxSo9xEVvX3HBmbuSNdSU3LXvM_Y", 
+                    "software_version": "217-610040", 
+                    "structure_id": "JuaetNMWZMUlVVrZB5h_S4NWRmmndj0DzA7zYtld4SdlANdQhD92-g", 
+                    "web_url": "https://home.nest.com/cameras/CjZEQldGRU5YZmlwSUtOTlJyc3dzNDJaZFB2NjRTQWJPVDI3OWNyd3liWFpCTlJNSDk0YlZKQkESFkJhdE9CZXhqczE3WTNuemFmNEJtS1EaNmRvQkNyNzFXdGhmQ1VJWkRod09BWEIxUldYNVp5cWNxUkFVc25hZG1PLWJOZ0JWNGtuOEx1QQ?auth=703N_rlTEZULyrPmgXAsrXt1cSQ73aexfBt6haYaT4oAFiTurP3kFJ9-Ku8sMDIp3YLHr9R0GU-vcFu6AZdQRebhlGHk9dPbvx61QuD13-LTY6eNuKkeRY6riJnIKRloAp_sUJR-c8Wbd8nxx998TC-WiTuDo7LbT5YML7DALHh19qaNbCJxSo9xEVvX3HBmbuSNdSU3LXvM_Y", 
+                    "where_id": "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6kv-iMicQ0eAQQ", 
+                    "where_name": "Bedroom"
+                }
+            }, 
+            "smoke_co_alarms": {
+                "3HGhhv-aGRh2-J6CxTjEJE1Ewf3htUkE": {
+                    "battery_health": "ok", 
+                    "co_alarm_state": "ok", 
+                    "device_id": "3HGhhv-aGRh2-J6CxTjEJE1Ewf3htUkE", 
+                    "is_manual_test_active": false, 
+                    "is_online": true, 
+                    "last_connection": "2018-12-03T06:12:33.770Z", 
+                    "last_manual_test_time": "2018-12-03T02:51:03.000Z", 
+                    "locale": "en-US", 
+                    "name": "Bedroom", 
+                    "name_long": "Bedroom Nest Protect", 
+                    "smoke_alarm_state": "ok", 
+                    "software_version": "3.1.4rc3", 
+                    "structure_id": "JuaetNMWZMUlVVrZB5h_S4NWRmmndj0DzA7zYtld4SdlANdQhD92-g", 
+                    "ui_color_state": "green", 
+                    "where_id": "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6kv-iMicQ0eAQQ", 
+                    "where_name": "Bedroom"
+                }
+            }
+        }, 
+        "metadata": {
+            "access_token": "c.ighe791q4jTmSMqOaOY6hWM6qMIiJHWo2lwJDV1SRDqi4wpbwFrtTXNK4AAwSOWdRTdXlFtlcBAV5Ed1QE7opQpc3yfZQDsjvPNb5f4UsUrTFlmurHSggDkl1P4Cf3KFgDa18Urito5QtNlF", 
+            "client_version": 1, 
+            "user_id": "z.1.1.fK/3xOWSbjiMoZdxkxO1EtSLIiNgvZI07dCVBlZYpG0="
+        }, 
+        "structures": {
+            "JuaetNMWZMUlVVrZB5h_S4NWRmmndj0DzA7zYtld4SdlANdQhD92-g": {
+                "away": "home", 
+                "cameras": [
+                    "DBWFENXfipIKNNRrsws42ZdPv64SAbOT279crwybXZBNRMH94bVJBA"
+                ], 
+                "co_alarm_state": "ok", 
+                "country_code": "US", 
+                "name": "StonyBrook", 
+                "smoke_alarm_state": "ok", 
+                "smoke_co_alarms": [
+                    "3HGhhv-aGRh2-J6CxTjEJE1Ewf3htUkE"
+                ], 
+                "structure_id": "JuaetNMWZMUlVVrZB5h_S4NWRmmndj0DzA7zYtld4SdlANdQhD92-g", 
+                "time_zone": "America/New_York", 
+                "wheres": {
+                    "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6ksA4DPUUrLnbA": {
+                        "name": "Side Door", 
+                        "where_id": "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6ksA4DPUUrLnbA"
+                    }, 
+                    "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6ksmLLBFL8DRWQ": {
+                        "name": "Guest House", 
+                        "where_id": "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6ksmLLBFL8DRWQ"
+                    }, 
+                    "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6ksxdyW43qU1IQ": {
+                        "name": "Driveway", 
+                        "where_id": "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6ksxdyW43qU1IQ"
+                    }, 
+                    "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6kszQ9AI-hKUcA": {
+                        "name": "Entryway", 
+                        "where_id": "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6kszQ9AI-hKUcA"
+                    }, 
+                    "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6ktAxOpECxIcxg": {
+                        "name": "Upstairs", 
+                        "where_id": "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6ktAxOpECxIcxg"
+                    }, 
+                    "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6ktRc8nsMdc01Q": {
+                        "name": "Downstairs", 
+                        "where_id": "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6ktRc8nsMdc01Q"
+                    }, 
+                    "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6ktSKnUvo6FpVA": {
+                        "name": "Attic", 
+                        "where_id": "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6ktSKnUvo6FpVA"
+                    }, 
+                    "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6ktbfRerYDDdgg": {
+                        "name": "Front Yard", 
+                        "where_id": "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6ktbfRerYDDdgg"
+                    }, 
+                    "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6ktjPhAXRJh-oQ": {
+                        "name": "Den", 
+                        "where_id": "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6ktjPhAXRJh-oQ"
+                    }, 
+                    "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6ktmJ76z1gbVpQ": {
+                        "name": "Backyard", 
+                        "where_id": "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6ktmJ76z1gbVpQ"
+                    }, 
+                    "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6ktxKcuwlYo_QQ": {
+                        "name": "Master Bedroom", 
+                        "where_id": "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6ktxKcuwlYo_QQ"
+                    }, 
+                    "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6ku065HJ8U51cA": {
+                        "name": "Hallway", 
+                        "where_id": "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6ku065HJ8U51cA"
+                    }, 
+                    "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6ku28Pl1YNDoLA": {
+                        "name": "Garage", 
+                        "where_id": "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6ku28Pl1YNDoLA"
+                    }, 
+                    "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6ku7QIDQuI0rpw": {
+                        "name": "Living Room", 
+                        "where_id": "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6ku7QIDQuI0rpw"
+                    }, 
+                    "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6kuRjXCCzm9S7w": {
+                        "name": "Office", 
+                        "where_id": "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6kuRjXCCzm9S7w"
+                    }, 
+                    "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6kuZMiB202AkJQ": {
+                        "name": "Family Room", 
+                        "where_id": "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6kuZMiB202AkJQ"
+                    }, 
+                    "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6kuc8HfSCGZjUg": {
+                        "name": "Patio", 
+                        "where_id": "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6kuc8HfSCGZjUg"
+                    }, 
+                    "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6kuisWyNH61DZw": {
+                        "name": "Back Door", 
+                        "where_id": "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6kuisWyNH61DZw"
+                    }, 
+                    "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6kujOkVqRF3t9Q": {
+                        "name": "Kids Room", 
+                        "where_id": "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6kujOkVqRF3t9Q"
+                    }, 
+                    "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6kunvMYNeGCjXQ": {
+                        "name": "Kitchen", 
+                        "where_id": "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6kunvMYNeGCjXQ"
+                    }, 
+                    "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6kusCWoq_5kJWw": {
+                        "name": "Outside", 
+                        "where_id": "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6kusCWoq_5kJWw"
+                    }, 
+                    "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6kuz2VdZb5aJuQ": {
+                        "name": "Deck", 
+                        "where_id": "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6kuz2VdZb5aJuQ"
+                    }, 
+                    "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6kv-ZY6GLvn5UQ": {
+                        "name": "Front Door", 
+                        "where_id": "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6kv-ZY6GLvn5UQ"
+                    }, 
+                    "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6kv-iMicQ0eAQQ": {
+                        "name": "Bedroom", 
+                        "where_id": "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6kv-iMicQ0eAQQ"
+                    }, 
+                    "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6kv-rykIgvqQ1g": {
+                        "name": "Dining Room", 
+                        "where_id": "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6kv-rykIgvqQ1g"
+                    }, 
+                    "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6kvYoG_kcPI9yg": {
+                        "name": "Guest Room", 
+                        "where_id": "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6kvYoG_kcPI9yg"
+                    }, 
+                    "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6kvif8yvhUoIOA": {
+                        "name": "Bathroom", 
+                        "where_id": "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6kvif8yvhUoIOA"
+                    }, 
+                    "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6kvwCyBQXimQVQ": {
+                        "name": "Basement", 
+                        "where_id": "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6kvwCyBQXimQVQ"
+                    }, 
+                    "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6kvy6GivLbIH5Q": {
+                        "name": "Shed", 
+                        "where_id": "vqLzFtXTkRrbhimbjPMPNnJimzdZ055Rbm9Ac4t-6kvy6GivLbIH5Q"
+                    }
+                }, 
+                "wwn_security_state": "ok"
+            }
+        }
+    }
+}

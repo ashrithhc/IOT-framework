@@ -1,23 +1,10 @@
 class APIError(Exception):
-    """ This Error class can store the error message returned from the Nest API.  The code
-    in wwn/nest_api.py in this sample project will create the APIError if an exception occurs.
-    See Nest API Error messages (https://developers.nest.com/documentation/cloud/error-messages) for more details.
-    """
     def __init__(self, code, result):
         self.code = code
         self.result = result
 
 
 def get_error_msg_help(code, default=""):
-    """ Error messages received from Nest have some information returned, which is stored in the APIError class above
-    (based on the sample code in wwn/nest_api.py).
-
-    The messages below (adapted from the nest-cloud-nodejs codelab) are for adding extra information or next
-    steps to the user or for logging/troubleshooting.
-    Can store these in locale files (ex: config_en-US.json) instead of this module.
-
-    See Nest API Error messages (https://developers.nest.com/documentation/cloud/error-messages) for more details.
-    """
     help_msgs = {
         # Helpful error messages
 

@@ -23,7 +23,7 @@ class AccessToken(object):
             'client_secret': self.product_secret,
             'code': authorization_code,
             'grant_type': 'authorization_code'
-        })
+        }).encode("utf-8")
 
         req = Request(self.nest_access_token_url, data)
         response = urlopen(req)
@@ -42,9 +42,9 @@ class AccessToken(object):
         return resp_code
 
 
-    def authorization_url():
+    def authorization_url(self):
         query = urlencode({
             'client_id': self.product_id,
             'state': 'STATE'
         })
-        return "{0}?{1}".format(nest_auth_url, query)
+        return "{0}?{1}".format(self.nest_auth_url, query)

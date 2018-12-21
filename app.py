@@ -12,6 +12,7 @@ from auth import Auth
 from nest_api import NestAPI
 from datamodel import NestData
 from error import APIError
+from streaming import Streamer
 
 app = Flask(__name__)
 
